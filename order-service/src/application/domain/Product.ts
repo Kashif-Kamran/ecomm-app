@@ -10,9 +10,8 @@ class Product {
     description: string;
     category: string;
     imageUrl: string;
-    rating: Rating;
-    createdAt: Date;
-
+    rating: Rating
+    createdAt: Date
 
     constructor(productInfo: { id: string, title: string, price: number, description: string, category: string, imageUrl: string; rating: Rating, createdAt: Date }) {
         this.id = productInfo.id
